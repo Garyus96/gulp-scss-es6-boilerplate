@@ -18,7 +18,7 @@ Package-lock.json contains updated critical vulnerability dependencies, so inclu
 <ul>
   <li>Clone or download this Git repository</li>
   <li>Install <a href="https://nodejs.org/en/" rel="nofollow">Node.js</a> if you don't have it yet</li>
-  <li>Open console with path to cloned or downloaded folder</li>
+  <li>Open console with path pointing to the cloned or downloaded folder</li>
   <li>Run <code>npm install</code></li>
   <li>Run <code>gulp</code> to run the default Gulp task, which will watch for changes you make</li>
 </ul>
