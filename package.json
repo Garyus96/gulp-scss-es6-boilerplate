@@ -1,0 +1,40 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp 4 frontend boilerplate with SCSS, Babel and including JS files.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Garyus96/gulp-scss-es6-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "html",
+    "css",
+    "scss",
+    "es6",
+    "frontend",
+    "js",
+    "javascript"
+  ],
+  "author": "@Garyus96",
+  "license": "ISC",
+  "homepage": "https://github.com/Garyus96/gulp-scss-es6-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "7.23.7",
+    "@babel/preset-env": "7.23.8",
+    "autoprefixer": "10.4.16",
+    "cssnano": "6.0.3",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-postcss": "9.1.0",
+    "gulp-replace": "1.1.4",
+    "gulp-sass": "5.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "gulp-include": "2.4.1",
+    "postcss": "8.4.33"
+  }
+}

@@ -1,0 +1,22 @@
+@use "sass:math";
+
+// Enable using em(value px)
+// for example font-size: em(32px) returns 2em
+// if the parent has font-size 14px, then em(32px, 14px);
+$browser-context: 16;
+
+@function em($pixels, $context: $browser-context) {
+  @if unitless($pixels) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if unitless($context) {
+    $context: $context * 1px;
+  }
+
+  @return math.div($pixels, $context) * 1em;
+}
+
+
+@import 'normalize';
+@import 'global';
