@@ -9,7 +9,7 @@ Package-lock.json contains updated critical vulnerability dependencies, so inclu
   <li>Compile SCSS into CSS file</li>
   <li>Autoprefix and minify the CSS file</li>
   <li>Compile ES6+ to ES5 with Babel</li>
-  <li>Enable including one JS file into another one as an alternative for ES6 import/export</li>
+  <li>Enable including one JS file into another as an alternative for ES6 import/export</li>
   <li>Concatenate and Uglify the JS files</li>
   <li>Move final CSS and JS files to the /dist folder</li>
 </ul>
