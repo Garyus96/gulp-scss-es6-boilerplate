@@ -40,7 +40,14 @@ function jsTask(){
         .pipe(include())
         .on('error', console.log)
         .pipe(babel({
-            presets: ['@babel/env']
+            presets: [
+                [
+                    '@babel/env',
+                    {
+                        'targets': '>0.25%'
+                    }
+                ]
+            ]
         }))
         .pipe(concat('main.js'))
         .pipe(uglify())
