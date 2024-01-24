@@ -16,7 +16,7 @@ const include = require('gulp-include')
 // File paths
 const files = {
     scssPath: 'assets/src/scss/**/*.scss',
-    jsPath: 'assets/src/js/**/main.js'
+    jsPath: 'assets/src/js/**/*.js'
 }
 
 // Sass task: compiles the style.scss file into style.css
