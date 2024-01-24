@@ -16,6 +16,7 @@ const include = require('gulp-include')
 // File paths
 const files = {
     scssPath: 'assets/src/scss/**/*.scss',
+    jsMainPath: 'assets/src/js/**/main.js',
     jsPath: 'assets/src/js/**/*.js'
 }
 
@@ -33,7 +34,7 @@ function scssTask(){
 // JS task: concatenates and uglifies JS files to main.js
 function jsTask(){
     return src([
-        files.jsPath
+        files.jsMainPath
         // ,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
         ])
         .pipe(include())
